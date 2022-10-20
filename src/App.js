@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div id="super-tunes">
-        <h2 id="st-title">SuperTunes - Songs of the Week</h2>
+        <h2 id="st-title">Super - Songs of the Week</h2>
         <button className="st-btn" onClick={this.sortTitle}>Sort By Title</button>
         <button className="st-btn" onClick={this.sortRating}>Sort By Rating</button>
         <div id="song-list">
